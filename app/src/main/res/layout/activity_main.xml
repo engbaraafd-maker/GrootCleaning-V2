@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gc_background_primary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:gravity="center_vertical"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_groot_logo"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GrootCleaning"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/gc_text_primary" />
+            <TextView
+                android:id="@+id/toolbar_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="App &amp; Account Automation"
+                android:textSize="11sp"
+                android:textColor="@color/gc_text_secondary" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/toolbar_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="READY"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/gc_success"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/bg_status_ready" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gc_divider" />
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/gc_background_secondary"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView android:id="@+id/nav_home" style="@style/NavItem" android:text="@string/home" />
+        <TextView android:id="@+id/nav_apps" style="@style/NavItem" android:text="@string/apps" />
+        <TextView android:id="@+id/nav_accounts" style="@style/NavItem" android:text="@string/accounts" />
+        <TextView android:id="@+id/nav_logs" style="@style/NavItem" android:text="@string/logs" />
+        <TextView android:id="@+id/nav_settings" style="@style/NavItem" android:text="@string/settings" />
+    </LinearLayout>
+</LinearLayout>

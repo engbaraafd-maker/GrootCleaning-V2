@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gc_background_primary">#07080B</color>
+    <color name="gc_background_secondary">#0A0F18</color>
+    <color name="gc_surface">#0D1625</color>
+    <color name="gc_surface_elevated">#111C2F</color>
+    <color name="gc_navy_border">#20304A</color>
+    <color name="gc_primary">#721A32</color>
+    <color name="gc_primary_dark">#4B0F21</color>
+    <color name="gc_success">#18B56A</color>
+    <color name="gc_warning">#D6A13A</color>
+    <color name="gc_error">#DD5A62</color>
+    <color name="gc_text_primary">#F4F7FB</color>
+    <color name="gc_text_secondary">#98A5B8</color>
+    <color name="gc_text_muted">#66758A</color>
+    <color name="gc_divider">#1C2A3E</color>
+    <color name="gc_white">#FFFFFF</color>
+    <color name="gc_success_dark">#124B35</color>
+    <color name="gc_warning_dark">#4A3711</color>
+    <color name="gc_error_dark">#4A1B1F</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GrootCleaning</string>
+    <string name="app_description">أتمتة التطبيقات والحسابات</string>
+    <string name="accessibility_service_label">أتمتة GrootCleaning</string>
+    <string name="accessibility_service_description">يستخدم GrootCleaning خدمة إمكانية الوصول لفحص شاشات إعدادات Android وتنفيذ مسار التنظيف المحدد من المستخدم.</string>
+    <string name="home">الرئيسية</string><string name="apps">التطبيقات</string><string name="accounts">الحسابات</string><string name="logs">السجل</string><string name="settings">الإعدادات</string>
+    <string name="system_status">حالة النظام</string><string name="ready">جاهز</string><string name="accessibility_disabled">إمكانية الوصول غير مفعلة</string><string name="running">قيد التنفيذ</string><string name="completed_with_errors">اكتمل مع أخطاء</string>
+    <string name="applications_selected">التطبيقات المحددة: %1$d</string><string name="accounts_selected">الحسابات المحددة: %1$d</string><string name="last_run">آخر تشغيل</string><string name="last_result">آخر نتيجة</string>
+    <string name="success">نجاح</string><string name="partial">جزئي</string><string name="failed">فشل</string><string name="start_cleaning">ابدأ التنظيف</string><string name="cleaning">جارٍ التنظيف…</string><string name="stop">إيقاف</string>
+    <string name="retry_failed">إعادة الفاشل</string><string name="resume">استكمال</string><string name="skip">تخطي</string><string name="open_manually">فتح يدويًا</string><string name="quick_actions">إجراءات سريعة</string><string name="permissions">الصلاحيات</string><string name="test_automation">اختبار الأتمتة</string>
+    <string name="preflight">الفحص المسبق</string><string name="applications">التطبيقات</string><string name="search">بحث</string><string name="select_all">تحديد الكل</string><string name="unselect_all">إلغاء تحديد الكل</string><string name="save">حفظ</string><string name="operation">العملية</string>
+    <string name="clear_cache">محو الكاش</string><string name="clear_data">محو البيانات</string><string name="clear_data_cache">محو البيانات + الكاش</string><string name="system_app">تطبيق نظام</string><string name="show_system_apps">إظهار تطبيقات النظام</string><string name="no_apps">لا توجد تطبيقات مطابقة.</string>
+    <string name="accounts_title">الحسابات</string><string name="grant_account_access">منح الوصول إلى الحسابات</string><string name="account_warning">إزالة الحساب من الجهاز قد تؤثر على التطبيقات والخدمات المرتبطة به.</string><string name="no_accounts">لا توجد حسابات ظاهرة يمكن لـ GrootCleaning الوصول إليها.</string><string name="provider">المزوّد</string><string name="identifier">المعرّف</string><string name="remove_account">إزالة الحساب</string>
+    <string name="permissions_title">الصلاحيات والوصول</string><string name="accessibility_status">خدمة إمكانية الوصول</string><string name="accessibility_enabled">مفعلة</string><string name="accessibility_disabled_label">غير مفعلة</string><string name="accessibility_explanation">يحتاج GrootCleaning إلى خدمة إمكانية الوصول للتنقل داخل إعدادات Android وتنفيذ خطوات الأتمتة المحددة.</string><string name="open_accessibility_settings">فتح إعدادات إمكانية الوصول</string>
+    <string name="account_access">الوصول إلى الحسابات</string><string name="open_account_access">فتح اختيار/وصول الحسابات</string><string name="usage_access">وصول الاستخدام للتحقق</string><string name="usage_access_explanation">اختياري. يسمح بمقارنة إحصاءات التخزين قبل وبعد التنظيف للتحقق بدرجة أقوى.</string><string name="open_usage_access">فتح إعدادات وصول الاستخدام</string>
+    <string name="prominent_disclosure_title">إفصاح خدمة إمكانية الوصول</string><string name="prominent_disclosure_body">يقرأ GrootCleaning عقد واجهة إعدادات Android فقط للعثور على الشاشات والأزرار اللازمة للعمليات التي اخترتها. لا يقرأ كلمات المرور أو رموز المصادقة أو المحتوى الخاص غير المرتبط بالعملية. وتعمل الخدمة بعد ضغطك على تشغيل المسار الذي اخترته.</string><string name="i_understand">أفهم ذلك</string><string name="continue_to_settings">المتابعة إلى الإعدادات</string>
+    <string name="advanced_settings">إعدادات متقدمة</string><string name="timeout_seconds">مهلة الانتظار (ثانية)</string><string name="retry_count">عدد المحاولات</string><string name="delay_between_tasks">التأخير بين المهام (مللي ثانية)</string><string name="continue_after_failure">المتابعة بعد الفشل</string><string name="auto_resume">استكمال تلقائي</string><string name="simulation_mode">وضع المحاكاة</string><string name="debug_logging">سجل تصحيح مفصل</string><string name="verification_level">مستوى التحقق</string><string name="basic">أساسي</string><string name="standard">قياسي</string><string name="strict">صارم</string><string name="save_settings">حفظ الإعدادات</string>
+    <string name="system_check">فحص النظام</string><string name="system_ready">النظام جاهز</string><string name="action_required">إجراء مطلوب</string><string name="cleaning_progress">تقدم التنظيف</string><string name="cleaning_complete">اكتمل التنظيف</string>
+    <string name="successful_count">ناجح: %1$d</string><string name="failed_count">فاشل: %1$d</string><string name="user_action_count">إجراء المستخدم: %1$d</string><string name="skipped_count">متخطى: %1$d</string><string name="verification_uncertain">التحقق غير مؤكد</string><string name="activity_log">سجل العمليات</string><string name="duration">المدة</string><string name="verification">التحقق</string><string name="no_logs">لا يوجد سجل تنفيذ بعد.</string>
+    <string name="automation_test">اختبار الأتمتة</string><string name="run_detection_test">تشغيل اختبار الاكتشاف</string><string name="test_is_read_only">فحص وقراءة فقط. لن يتم تنفيذ أي عملية حذف.</string><string name="test_complete">اكتمل اختبار الاكتشاف.</string><string name="back">رجوع</string>
+    <string name="app_info">معلومات التطبيق</string><string name="storage">التخزين</string><string name="settings_navigation">التنقل في الإعدادات</string><string name="clear_cache_button">زر محو الكاش</string><string name="clear_data_button">زر محو البيانات</string><string name="manage_space_button">إدارة المساحة</string><string name="account_screen">شاشة الحسابات</string><string name="account_remove_action">إجراء إزالة الحساب</string><string name="detected">تم الاكتشاف</string><string name="not_detected">غير مكتشف</string><string name="unknown">غير معروف</string><string name="reason">السبب</string><string name="open_settings">فتح الإعدادات</string>
+    <string name="error_clear_data_not_found">لم يتم العثور على عنصر محو البيانات.</string><string name="error_clear_cache_not_found">لم يتم العثور على عنصر محو الكاش.</string><string name="error_account_remove_not_found">لم يتم العثور على عنصر إزالة الحساب.</string><string name="requires_user_action">REQUIRES_USER_ACTION</string><string name="verification_uncertain_code">VERIFICATION_UNCERTAIN</string><string name="task_stopped">تم إيقاف المهمة بأمان.</string><string name="task_skipped">تم تخطي المهمة بواسطة المستخدم.</string><string name="no_selected_targets">حدد تطبيقًا أو حسابًا واحدًا على الأقل قبل التشغيل.</string>
+    <string name="quick_actions_caption">انتقل سريعًا إلى الأقسام الأكثر استخدامًا.</string>
+    <string name="system_check_caption">تحقق من جاهزية البيئة قبل بدء الأتمتة.</string>
+    <string name="select_apps_before_run">اختر التطبيقات أو الحسابات التي تريد من GrootCleaning معالجتها.</string>
+    <string name="engine_ready">قائمة المهام وإعادة المحاولة ومحرك التحقق متاحة.</string>
+    <string name="automation_engine">محرك الأتمتة</string>
+    <string name="view_details">عرض التفاصيل</string>
+    <string name="back_home">العودة للرئيسية</string>
+    <string name="successful">ناجح</string>
+    <string name="user_action">إجراء المستخدم</string>
+    <string name="result_summary">ملخص التشغيل وحالة التحقق.</string>
+    <string name="current_task">المهمة الحالية</string>
+    <string name="current_step">الخطوة الحالية</string>
+    <string name="step_timeline">تسلسل الخطوات</string>
+    <string name="waiting">في الانتظار</string>
+    <string name="in_progress">قيد التنفيذ</string>
+    <string name="completed">مكتمل</string>
+    <string name="duration_seconds">%1$.1f ثانية</string>
+    <string name="account_screen_caption">الحسابات التي تظهر لواجهات حسابات النظام. الحسابات المحددة فقط تدخل قائمة الأتمتة.</string>
+    <string name="apps_screen_caption">حدد الأهداف ثم اختر عملية التنظيف المطلوبة لكل تطبيق.</string>
+    <string name="app_selection_count">%1$d تطبيقات محددة</string>
+    <string name="settings_caption">تحكم في الوصول والتحقق وسلوك التنفيذ واللغة.</string>
+    <string name="permissions_caption">صلاحيات يستخدمها GrootCleaning فقط، دون Root أو صلاحيات مخفية.</string>
+    <string name="account_access_explanation">تظهر فقط الحسابات المتاحة عبر واجهات Android الرسمية.</string>
+    <string name="optional">اختياري</string>
+    <string name="advanced_settings_caption">إعدادات المهلة وإعادة المحاولة ومستوى التحقق والمحاكاة.</string>
+    <string name="session_controls">التحكم في الجلسة</string>
+    <string name="session_controls_caption">استكمل تشغيلًا محفوظًا أو افتح إعدادات Android يدويًا.</string>
+    <string name="language">اللغة</string>
+    <string name="language_caption">بدّل GrootCleaning بين العربية والإنجليزية.</string>
+</resources>
